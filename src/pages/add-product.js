@@ -51,14 +51,14 @@ function AddProduct() {
     <div>
       <ProductAddHeader />
       {/* <h1>product list</h1> */}
-      <div className="body">
+      {/* <div className="body">
         <Alert show={show} variant="success">
           <Alert.Heading>Success fully added</Alert.Heading>
         </Alert>
         <div className="row justify-content-center mt-3">
           <hr />
         </div>
-      </div>
+      </div> */}
       <form className="form-control" onSubmit={handleSubmit(onSubmit)}>
         <div className="form-container">
           <div className="row">
